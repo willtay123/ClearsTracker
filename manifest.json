@@ -1,18 +1,27 @@
 {
-  "name": "ClearsTrack",
-  "version": "0.1.0",
-  "namespace": "ClearsTrack",
-  "package": "ClearsTrack.dll",
-  "manifest_version": 1,
+    "name": "ClearsTracker",
+    "version": "0.1.0",
+    "namespace": "ClearsTracker",
+    "package": "ClearsTracker.dll",
+    "manifest_version": 1,
 
-  "description": "Description of your module. Visit https://github.com/blish-hud/manifest.json/blob/master/manifest-v1.md for details about the manifest format.",
-  "dependencies": {
-    "bh.blishhud": ">=0.5.2"
-  },
-  "url": "https://github.com/Lucius/ClearsTrack",
-  "contributors": [
-    {
-      "name": "Lucius"
+    "description": "Tracks progress on your gw2 clears",
+    "dependencies": {
+        "bh.blishhud": ">=0.5.2"
+    },
+    "url": "https://github.com/willtay123/ClearsTracker",
+    "author": {
+        "name": "Lucius",
+        "username": "lucius.7804",
+        "url": "https://github.com/willtay123"
+    },
+
+    "enabled_without_gw2": false,
+
+    "api_permissions": {
+        "account": {
+            "optional": false,
+            "details": "Needed to check for clears."
+        }
     }
-  ]
 }
